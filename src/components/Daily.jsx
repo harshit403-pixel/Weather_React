@@ -17,7 +17,7 @@ const Daily = ({dailyData}) => {
 {dailyData.temp > 35 && dailyData.temp <= 40 && "Very Hot"}
 {dailyData.temp > 40 && "Extreme Heat"}</p>
         </div>
-        <h1>{dailyData.temp}</h1>
+        <div className='flex items-center '><h1>{dailyData.temp}  </h1><span className='font-thin text-[10px] ml-0.5' >°C</span></div>
         </div>
   )
 }
