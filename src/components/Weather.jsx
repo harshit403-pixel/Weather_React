@@ -11,7 +11,7 @@ import isLoading from "../assets/loading.json"
 import thermoHot from "../assets/thermoHot.png"
 import thermoDecent from "../assets/thermoDecent.png"
 import thermoCold from "../assets/thermoCold.png"
-import sunnyMain from "../assets/Sunnymain.json"
+import sunnyMain from "../assets/sunnyMain.json"
 import snowMain from "../assets/snowMain.json"
 import cloudSunMain from "../assets/cloudSunMain.json"
   
