@@ -163,8 +163,9 @@ console.log("devendra bhaiya OP")
         <div className="">
         <div className="flex ">  <h1 className="text-9xl" > {weather.temperature}</h1> <span className="text-xl mt-2 " >{weather.temperature ? "°C": ""}</span> </div>
           <h2 className="text-5xl font-thin">
+
             {weather.temperature? "" :"Enter your city" }
-  {weather.temperature <= 10 && weather.temperature >-10 && "Snowfall"}
+  { weather.temperature && weather.temperature <= 10 && weather.temperature > -10 && "Snowfall"}
   {weather.temperature > 10 && weather.temperature <= 20 && "Cold and Cloudy"}
   {weather.temperature > 20 &&weather.temperature  <= 30 && "Pleasant Weather"}
   {weather.temperature > 30 && weather.temperature <= 40 && "Hot Conditions"}
